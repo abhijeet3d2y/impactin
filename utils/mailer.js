@@ -6,7 +6,7 @@ var config = {
     port: 587,
     auth: {
         user: 'abhiasce@gmail.com',
-        pass: 'bybybybybyby'
+        pass: process.env.pass
     }
 };
     
